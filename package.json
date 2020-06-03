@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "newman": "^5.0.1",
-    "newman-reporter-htmlextra": "^1.15.3"
+    // "newman-reporter-htmlextra": "^1.15.3"
   },
   "name": "Postman-API-Jenkins",
   "version": "1.0.0",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/mdnadim4/Postman-API-Jenkins.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nadim Mahmud",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mdnadim4/Postman-API-Jenkins/issues"
