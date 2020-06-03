@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "newman": "^5.0.1",
-    // "newman-reporter-htmlextra": "^1.15.3"
+    "newman-reporter-htmlextra": "^1.15.3"
   },
   "name": "Postman-API-Jenkins",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "production": "newman run collection.json -e collection_environment.json"
+    "production": "newman run collection.json -e collection_environment.json --reporters=cli,htmlextra"
   },
   "repository": {
     "type": "git",
