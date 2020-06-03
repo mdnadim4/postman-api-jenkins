@@ -2,5 +2,23 @@
   "dependencies": {
     "newman": "^5.0.1",
     "newman-reporter-htmlextra": "^1.15.3"
-  }
+  },
+  "name": "Postman-API-Jenkins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "production": "newman run collection.json -e collection_environment.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdnadim4/Postman-API-Jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdnadim4/Postman-API-Jenkins/issues"
+  },
+  "homepage": "https://github.com/mdnadim4/Postman-API-Jenkins#readme",
+  "description": ""
 }
