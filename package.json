@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "newman": "^5.0.1",
+    "newman-reporter-htmlextra": "^1.15.3"
+  }
+}
